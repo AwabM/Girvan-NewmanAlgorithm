@@ -9,7 +9,7 @@ The code is divided into two parts to detect the communities in the network grap
 [Read more about Modularity equation](https://en.wikipedia.org/wiki/Modularity_(networks)) 
 
 # Data:
-Prepossessed version of Network Data Repository dataset (http://networkrepository.com). Each row in the file represent an edge in the network. The numbers represent IDs of vertices.
+Prepossessed version of [Network Data Repository dataset](http://networkrepository.com). Each row in the file represent an edge in the network. The numbers represent IDs of vertices.
 Total edges in this dataset are 906 edges in the dataset provided.
  power_input
 
@@ -21,4 +21,6 @@ communities.txt: second output of the code that has communities achieved highest
 data folder: contain power_input.txt that has the data described above.
 
 # Excution:
-spark-submit main_code.py <input_file_path> <betweenness_output_file_path> <community_output_file_path>
+
+#### spark-submit main_code.py <input_file_path> <betweenness_output_file_path> <community_output_file_path>
+
